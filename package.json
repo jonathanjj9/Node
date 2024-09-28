@@ -1,0 +1,22 @@
+{
+  "name": "conceitos-node",
+  "version": "1.0.0",
+  "description": "Esse projeto é um conceito basico de NODE",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch server.js"
+  },
+  "author": "Jonathan",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^5.19.1",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.5",
+    "prisma": "^5.19.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.2"
+  }
+}
